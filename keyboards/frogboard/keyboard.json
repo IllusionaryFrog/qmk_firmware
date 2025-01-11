@@ -11,10 +11,10 @@
     },
     "matrix_pins": {
         "direct": [
-            ["GP2", "GP3", "GP4", "GP5", "GP6"],
-            ["GP7", "GP8", "GP9", "GP10", "GP11"],
-            ["GP12", "GP13", "GP14", "GP15", "GP26"],
-            ["NO_PIN", "NO_PIN", "GP27", "GP28", "GP29"]
+            ["GP7", "GP10", "GP13", "GP26", "GP29"],
+            ["GP6", "GP9", "GP12", "GP15", "GP28"],
+            ["GP5", "GP8", "GP11", "GP14", "GP27"],
+            ["NO_PIN", "NO_PIN", "GP4", "GP3", "GP2"]
         ]
     },
     "split": {
@@ -28,10 +28,10 @@
         "matrix_pins": {
             "right": {
                 "direct": [
-                    ["GP2", "GP3", "GP4", "GP5", "GP6"],
-                    ["GP7", "GP8", "GP9", "GP10", "GP11"],
-                    ["GP12", "GP13", "GP14", "GP15", "GP26"],
-                    ["GP27", "GP28", "GP29", "NO_PIN", "NO_PIN"]
+                    ["GP2", "GP5", "GP8", "GP11", "GP14"],
+                    ["GP3", "GP6", "GP9", "GP12", "GP15"],
+                    ["GP4", "GP7", "GP10", "GP13", "GP26"],
+                    ["GP29", "GP28", "GP27", "NO_PIN", "NO_PIN"]
                 ]
             }
         }
